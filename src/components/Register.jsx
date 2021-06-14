@@ -1,17 +1,18 @@
 import React, { Component } from "react";
 import Input from "./Input";
 
-class Login extends Component {
+class Register extends Component {
   state = {};
   render(props) {
     return (
       <form className="form">
         <Input type="text" placeholder="Username" />
         <Input type="password" placeholder="Password" />
-        <button type="submit">Login</button>
+        <Input type="password" placeholder="Confirm Password" />
+        <button type="submit">Register</button>
       </form>
     );
   }
 }
 
-export default Login;
+export default Register;

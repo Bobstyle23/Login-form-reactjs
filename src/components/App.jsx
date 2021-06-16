@@ -1,7 +1,7 @@
 import Login from "./Login";
 import Register from "./Register";
 
-let userRegistered = false;
+let userRegistered = true;
 
 function App() {
   return (
